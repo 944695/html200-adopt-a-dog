@@ -68,45 +68,7 @@
         <div class="container">
           <h2>Featured Dogs</h2>
           <p class="section-sub">A few of our furry friends looking for a home.</p>
-          <div class="dog-grid">
-
-            <article class="dog-card">
-              <img src="images/angus-card.jpg" alt="Angus" onclick="showDogInfo('Angus', 'Boxer Mix', 125)" />
-              <div class="dog-card-body">
-                <h3>Angus</h3>
-                <p class="breed">Boxer Mix &bull; 3 years old &bull; Male</p>
-                <a href="checkout.html" class="btn btn-sm" onclick="addAdoptionTotal(event, 'Angus', 'Boxer Mix', 125)">Adopt Angus</a>
-              </div>
-            </article>
-
-            <article class="dog-card">
-              <img src="images/duffy-card.jpg" alt="Duffy" onclick="showDogInfo('Duffy', 'Pit Bull Mix', 140)" />
-              <div class="dog-card-body">
-                <h3>Duffy</h3>
-                <p class="breed">Pit Bull Mix &bull; 2 years old &bull; Male</p>
-                <a href="checkout.html" class="btn btn-sm" onclick="addAdoptionTotal(event, 'Duffy', 'Pit Bull Mix', 140)">Adopt Duffy</a>
-              </div>
-            </article>
-
-            <article class="dog-card">
-              <img src="images/luna-card.jpg" alt="Luna" onclick="showDogInfo('Luna', 'Labrador Mix', 155)" />
-              <div class="dog-card-body">
-                <h3>Luna</h3>
-                <p class="breed">Labrador Mix &bull; 1 year old &bull; Female</p>
-                <a href="checkout.html" class="btn btn-sm" onclick="addAdoptionTotal(event, 'Luna', 'Labrador Mix', 155)">Adopt Luna</a>
-              </div>
-            </article>
-
-            <article class="dog-card">
-              <img src="images/lucas-card.jpg" alt="Lucas" onclick="showDogInfo('Lucas', 'Border Collie Mix', 165)" />
-              <div class="dog-card-body">
-                <h3>Lucas</h3>
-                <p class="breed">Border Collie Mix &bull; 4 years old &bull; Male</p>
-                <a href="checkout.html" class="btn btn-sm" onclick="addAdoptionTotal(event, 'Lucas', 'Border Collie Mix', 165)">Adopt Lucas</a>
-              </div>
-            </article>
-
-          </div>
+          <div class="dog-grid" id="home-dog-grid"></div>
           <div class="section-cta">
             <a href="dogs.html" class="btn">See All Dogs</a>
           </div>
