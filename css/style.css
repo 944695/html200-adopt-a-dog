@@ -463,6 +463,64 @@ a:focus-visible {
   gap: 0.65rem;
 }
 
+/* Contact Page */
+.contact-section {
+  padding: clamp(2rem, 2.5vw, 4rem) 0;
+}
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: minmax(240px, 0.9fr) 1.3fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+.contact-details {
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1rem;
+}
+
+.contact-list {
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.contact-list li {
+  margin-bottom: 0.55rem;
+}
+
+.contact-form {
+  display: grid;
+  gap: 1rem;
+}
+
+.field-label {
+  margin: 0 0 0.4rem;
+  font-weight: 600;
+}
+
+.inline-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.inline-options label,
+.checkbox-group label {
+  display: inline-flex;
+  gap: 0.45rem;
+  align-items: center;
+  font-weight: 500;
+}
+
+.inline-options input,
+.checkbox-group input {
+  width: auto;
+}
+
 /* Footer */
 .site-footer {
   background: #142128;
@@ -554,5 +612,9 @@ a:focus-visible {
 
   .main-nav ul {
     justify-content: flex-start;
+  }
+
+  .contact-layout {
+    grid-template-columns: 1fr;
   }
 }
